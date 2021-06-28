@@ -17,6 +17,24 @@
         "family_id": "6VDhZanY7dP",
         "role": "admin"
       }
+    },
+    {
+      "type": "family_users",
+      "id": "72PaK1RPTXy",
+      "attributes": {
+        "user_id": "6VDixpz88it",
+        "family_id": "6VDhZanY7dP",
+        "role": "child"
+      }
+    },
+    {
+      "type": "family_users",
+      "id": "6YSAWo8j1Vk",
+      "attributes": {
+        "user_id": "6VDhZTusGZX",
+        "family_id": "6VDhZanY7dP",
+        "role": "child"
+      }
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "type": "save_balances",
+            "id": "6YSNtENLZNq",
+            "attributes": {
+                "family_user_id": "72PaK1RPTXy",
+                "available_balance": 23.43,
+                "till_account_id": "6YSNtEN31ae"
+            }
+        },
+        {
+            "type": "save_balances",
+            "id": "6YSNeZyXgtc",
+            "attributes": {
+                "family_user_id": "6YSAWo8j1Vk",
+                "available_balance": 0,
+                "till_account_id": "6YSNeZxthbQ"
+            }
+        }
+    ]
+}

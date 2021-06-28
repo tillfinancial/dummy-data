@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "type": "linked_accounts",
+            "id": "6VDiVYhG9cQ",
+            "attributes": {
+                "user_id": "6w8gB4u3tb1",
+                "account_type": "checking",
+                "till_account_id": "6VDiVYdZaZX",
+                "available_balance": 220.14
+            }
+        }
+    ]
+}

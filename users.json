@@ -19,6 +19,26 @@
                 "last_name": "Freyrdottir",
                 "phone": "+18449910012"
             }
+        },
+        {
+            "type": "users",
+            "id": "6VDixpz88it",
+            "attributes": {
+                "email": "thor@asguard.com",
+                "first_name": "Thor",
+                "last_name": "Odinson",
+                "phone": "+18449910013"
+            }
+        },
+        {
+            "type": "users",
+            "id": "6VDhZTusGZX",
+            "attributes": {
+                "email": "loki@asguard.com",
+                "first_name": "Loki",
+                "last_name": "Odinson",
+                "phone": "+18449910014"
+            }
         }
     ]
 }

@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "type": "spend_balances",
+            "id": "6YTKQfpt8xs",
+            "attributes": {
+                "family_user_id": "72PaK1RPTXy",
+                "available_balance": 23.43,
+                "till_account_id": "6YTKQfkLakz"
+            }
+        },
+        {
+            "type": "spend_balances",
+            "id": "6YSPR9EAQgY",
+            "attributes": {
+                "family_user_id": "6YSAWo8j1Vk",
+                "available_balance": 0,
+                "till_account_id": "6YSPR9CnRmr"
+            }
+        }
+    ]
+}
