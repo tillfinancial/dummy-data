@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "type": "family_users",
+      "id": "6VDhZatU4md",
+      "attributes": {
+        "user_id": "6w8gB4u3tb1",
+        "family_id": "6VDhZanY7dP",
+        "role": "admin"
+      }
+    },
+    {
+      "type": "family_users",
+      "id": "6VDiDo6fg8h",
+      "attributes": {
+        "user_id": "7r8gB4u3tx1",
+        "family_id": "6VDhZanY7dP",
+        "role": "admin"
+      }
+    }
+  ]
+}

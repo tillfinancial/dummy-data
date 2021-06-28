@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "type": "users",
+            "id": "6w8gB4u3tb1",
+            "attributes": {
+                "email": "odin@asguard.com",
+                "first_name": "Odin",
+                "last_name": "Borson",
+                "phone": "+18449910011"
+            }
+        },
+        {
+            "type": "users",
+            "id": "7r8gB4u3tx1",
+            "attributes": {
+                "email": "freyja@asguard.com",
+                "first_name": "Freyja",
+                "last_name": "Freyrdottir",
+                "phone": "+18449910012"
+            }
+        }
+    ]
+}
