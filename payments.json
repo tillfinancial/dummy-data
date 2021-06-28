@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "type": "contracts",
+            "id": "",
+            "attributes": {
+                "created_by": "",
+                "paid_to": "",
+                "type": "one_time",
+                "amount": 5,
+                "dest_till_account_id": ""
+            }
+        },
+        {
+            "type": "contracts",
+            "id": "",
+            "attributes": {
+                "created_by": "",
+                "paid_to": "",
+                "type": "one_time",
+                "amount": 5
+            }
+        }
+    ]
+}
