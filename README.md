@@ -129,11 +129,28 @@ A spend balance represents a child's checking account on Till. This is the accou
 
 | Name | Type | Description |
 | --- | --- | --- |
-| linked_account_id | string | The linked account this transfer belongs to
-| amount | number | The amount of money transferred |
-| status | Linked Account Transfer Status | A unique identifier for this account for accounting purposes |
+| family_user_id | string | The family user this transfer belongs to
+| available_balance | number | The amount of money available in the account |
+| pending_balance | number | The amount of money that will be available once all pending transfers clear |
 
 ### Endpoints
 | Method | Path | Description|
 | --- | --- | --- | 
-| GET | /linked_accounts.json | These are the linked_account records the currently logged in user has access to. |
+| GET | /spend_balances.json | These are the spend_balance records the currently logged in user has access to. |
+
+## Save Balances
+
+A save balance represents a child's "saving" account on Till. This is the account the kid puts money in to save towards goals.
+
+### Attributes
+
+| Name | Type | Description |
+| --- | --- | --- |
+| family_user_id | string | The family user this transfer belongs to
+| available_balance | number | The amount of money available in the account |
+| pending_balance | number | The amount of money that will be available once all pending transfers clear |
+
+### Endpoints
+| Method | Path | Description|
+| --- | --- | --- | 
+| GET | /save_balances.json | These are the save_balance records the currently logged in user has access to. |
