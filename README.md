@@ -86,7 +86,6 @@ A linked account represents an admin's connected bank account. On Till, a parent
 | --- | --- | --- |
 | user_id | string | The user this linked account belongs to
 | account_type | string | The kind of bank account this is |
-| till_account_id | string | A unique identifier for this account for accounting purposes |
 | available_balance | number | The amount of money available in the account |
 | pending_balance | number | The amount of money that will be available once all pending transfers clear |
 
