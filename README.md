@@ -104,6 +104,7 @@ A linked account transfers represent the money an admin moves from their linked 
 | --- | --- | --- |
 | linked_account_id | string | The linked account this transfer belongs to
 | amount | number | The amount of money transferred |
+| name | string | The name of the bank account |
 | status | Linked Account Transfer Status | A unique identifier for this account for accounting purposes |
 | created_at | string | The timestamp the transfer was created at |
 
