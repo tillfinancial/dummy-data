@@ -6,7 +6,7 @@
             "attributes": {
                 "family_user_id": "72PaK1RPTXy",
                 "available_balance": 150.12,
-                "till_account_id": "6YSNtEN31ae"
+                "pending_balance": 150.12
             }
         },
         {
@@ -15,7 +15,7 @@
             "attributes": {
                 "family_user_id": "6YSAWo8j1Vk",
                 "available_balance": 0,
-                "till_account_id": "6YSNeZxthbQ"
+                "pending_balance": 0
             }
         }
     ]

@@ -106,11 +106,12 @@ A linked account transfers represent the money an admin moves from their linked 
 | linked_account_id | string | The linked account this transfer belongs to
 | amount | number | The amount of money transferred |
 | status | Linked Account Transfer Status | A unique identifier for this account for accounting purposes |
+| created_at | string | The timestamp the transfer was created at |
 
 ### Endpoints
 | Method | Path | Description|
 | --- | --- | --- | 
-| GET | /linked_accounts.json | These are the linked_account records the currently logged in user has access to. |
+| GET | /linked_account_transfers.json | These are the linked_account records the currently logged in user has access to. |
 
 ### Linked Account Transfer Status Enum
 
@@ -119,3 +120,20 @@ A linked account transfers represent the money an admin moves from their linked 
 | pending | The transfer is in progress but has not posted yet |
 | processed | The transfer has posted and the money is able to be used |
 | cancelled | The transfer has been cancelled and the money will not be made available |
+
+## Spend Balances
+
+A spend balance represents a child's checking account on Till. This is the account that has a debit card connected to it so a kid can swipe to make purchases. Only kids have spend balances.
+
+### Attributes
+
+| Name | Type | Description |
+| --- | --- | --- |
+| linked_account_id | string | The linked account this transfer belongs to
+| amount | number | The amount of money transferred |
+| status | Linked Account Transfer Status | A unique identifier for this account for accounting purposes |
+
+### Endpoints
+| Method | Path | Description|
+| --- | --- | --- | 
+| GET | /linked_accounts.json | These are the linked_account records the currently logged in user has access to. |
