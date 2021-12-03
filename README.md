@@ -159,7 +159,7 @@ A save balance represents a child's "saving" account on Till. This is the accoun
 
 A transaction represents a child's spending history on Till. We expose transactions on a per family_user basis. The family_user_id of the user you are trying to get the spending history of is embedded in the path (see below).
 
-This a paginated resource. Each page has it's own endpoint. For example, page 1 could be `/family_users/csrv435f/transactions/page1.json`, while page 2 is `/family_users/csrv435f/transactions/page2.json`. Each page has 10 entries.
+This a paginated resource. Each page has it's own endpoint. For example, page 1 could be `/family_users/csrv435f/transactions/page1.json`, while page 2 is `/family_users/csrv435f/transactions/page2.json`. Each page has up to 10 entries. A response with less than 10 entries means that is the last page of results.
 
 ### Attributes
 
@@ -174,4 +174,4 @@ This a paginated resource. Each page has it's own endpoint. For example, page 1 
 ### Endpoints
 | Method | Path | Description|
 | --- | --- | --- | 
-| GET | /family_users/{family_uder_id}/transactions/pageX.json | Paginated transactions for a given family_user |
+| GET | /family_users/{family_user_id}/transactions/pageX.json | Paginated transactions for a given family_user |
