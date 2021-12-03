@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "type": "transactions",
+            "id": "1aVYhG3cUdt",
+            "attributes": {
+                "spend_balance_id": "6YSPR9EAQgY",
+                "amount": -30.68,
+                "description": "ROBLOX",
+                "status": "pending",
+                "created_at": "2021-11-12T14:39:25.525482Z"
+            }
+        },
+        {
+            "type": "transactions",
+            "id": "2aVYhG3cUdt",
+            "attributes": {
+                "spend_balance_id": "6YSPR9EAQgY",
+                "amount": -5.68,
+                "description": "DUNKIN DONUTS",
+                "status": "processed",
+                "created_at": "2021-11-10T14:39:25.525482Z"
+            }
+        },
+        {
+            "type": "transactions",
+            "id": "3aVYhG3cUdt",
+            "attributes": {
+                "spend_balance_id": "6YSPR9EAQgY",
+                "amount": -5.68,
+                "description": "DUNKIN DONUTS",
+                "status": "processed",
+                "created_at": "2021-11-09T14:39:25.525482Z"
+            }
+        },
+        {
+            "type": "transactions",
+            "id": "4aVYhG3cUdt",
+            "attributes": {
+                "spend_balance_id": "6YSPR9EAQgY",
+                "amount": -5.68,
+                "description": "DUNKIN DONUTS",
+                "status": "processed",
+                "created_at": "2021-11-01T09:39:25.525482Z"
+            }
+        }
+    ]
+}
